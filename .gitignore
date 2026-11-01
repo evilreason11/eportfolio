@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Node.js / Vue
+node_modules/
+frontend/dist/
+npm-debug.log*
+
+# Секреты и окружение
+.env
+.env.local
+*.pem
+*.key
+
+# Загружаемые файлы и локальные данные
+uploads/
+minio-data/
+pgdata/
+*.log
+
+# IDE и ОС
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
